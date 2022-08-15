@@ -1,7 +1,7 @@
 package com.example.examplemod.mixin.binding;
 
-import com.example.examplemod.mixin.TitleScreenBindingMixinKt;
-import net.minecraft.client.gui.screens.TitleScreen;
+import com.example.examplemod.mixinkt.TitleScreenBindingMixinKt;
+import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -12,7 +12,7 @@ public class TitleScreenBindingMixin {
 
 	@Inject(method = "init", at = @At("TAIL"))
 	public void onInit(CallbackInfo ci) {
-		TitleScreenBindingMixinKt.titleScreenBindingMixin(ci);
+		TitleScreenBindingMixinKt.titleScreenBindingMixin(/*ci*/);
 	}
 
 }
