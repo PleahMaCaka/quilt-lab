@@ -12,8 +12,8 @@
 			},
 			"contact": {
 				"homepage": "https://github.com/PleahMaCaka",
-				"issues": "https://github.com/quilt-template/issue",
-				"sources": "https://github.com/quilt-template"
+				"issues": "https://github.com/quilt-kotlin-template/issue",
+				"sources": "https://github.com/quilt-kotlin-template"
 			},
 			"icon": "assets/examplemod/icon.png"
 		},
