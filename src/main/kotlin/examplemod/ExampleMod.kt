@@ -1,4 +1,4 @@
-package com.example.examplemod
+package examplemod
 
 import org.quiltmc.loader.api.ModContainer
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer
@@ -16,3 +16,4 @@ object ExampleMod : ModInitializer {
     }
 
 }
+

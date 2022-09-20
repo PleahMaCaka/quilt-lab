@@ -1,6 +1,6 @@
-package com.example.examplemod.mixinkt
+package examplemod.mixinkt
 
-import com.example.examplemod.ExampleMod
+import examplemod.ExampleMod
 
 fun titleScreenBindingMixin(/*ci: CallbackInfo*/) {
     ExampleMod.LOGGER.info("TitleScreenBindingMixin!")

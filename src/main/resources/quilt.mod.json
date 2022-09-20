@@ -1,7 +1,7 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
+		"group": "examplemod",
 		"id": "examplemod",
 		"version": "${version}",
 		"metadata": {
@@ -21,7 +21,7 @@
 		"entrypoints": {
 			"init": {
 				"adapter": "kotlin",
-				"value": "com.example.examplemod.ExampleMod"
+				"value": "examplemod.ExampleMod"
 			}
 		},
 		"depends": [

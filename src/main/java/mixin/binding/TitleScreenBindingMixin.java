@@ -1,6 +1,6 @@
-package com.example.examplemod.mixin.binding;
+package mixin.binding;
 
-import com.example.examplemod.mixinkt.TitleScreenBindingMixinKt;
+import examplemod.mixinkt.TitleScreenBindingMixinKt;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
