@@ -1,4 +1,4 @@
-package com.pleahmacaka.example_mod.binding
+package com.pleahmacaka.example_mod.mixins
 
 import com.pleahmacaka.example_mod.ExampleMod
 
