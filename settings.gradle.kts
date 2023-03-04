@@ -15,4 +15,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "quilt-template"
+rootProject.name = "quiltlab"

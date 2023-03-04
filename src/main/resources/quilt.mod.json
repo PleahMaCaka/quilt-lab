@@ -2,11 +2,11 @@
   "schema_version": 1,
   "quilt_loader": {
     "group": "com.pleahmacaka",
-    "id": "example_mod",
+    "id": "quiltlab",
     "version": "${version}",
     "metadata": {
-      "name": "Example Mod",
-      "description": "QuiltMC Kotlin Template",
+      "name": "Quilt Lab",
+      "description": "Minecraft Lab Using Kotlin!",
       "contributors": {
         "PleahMaCaka": "Owner"
       },
@@ -15,13 +15,13 @@
         "issues": "https://github.com/PleahMaCaka/qulit-template/issues",
         "sources": "https://github.com/PleahMaCaka/qulit-template"
       },
-      "icon": "assets/example_mod/icon.png"
+      "icon": "assets/quiltlab/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": {
         "adapter": "kotlin",
-        "value": "com.pleahmacaka.example_mod.ExampleMod"
+        "value": "com.pleahmacaka.quiltlab.QuiltLab"
       }
     },
     "depends": [
@@ -43,5 +43,5 @@
       }
     ]
   },
-  "mixin": "example_mod.mixins.json"
+  "mixin": "quiltlab.mixins.json"
 }
