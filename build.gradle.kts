@@ -40,6 +40,15 @@ dependencies {
     modImplementation(libs.quilt.loader)
     modImplementation(libs.qfapi)
     modImplementation(libs.qkl)
+
+    /* IMGUI */
+    val imguiVersion = "1.86.6"
+
+    listOf("lwjgl3", "binding", "natives-windows", "natives-linux", "natives-macos").forEach { libName ->
+        implementation("io.github.spair:imgui-java-$libName:$imguiVersion") {
+            exclude(group = "org.lwjgl")
+        }
+    }
 }
 
 tasks {
